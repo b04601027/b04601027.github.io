@@ -1,0 +1,84 @@
+<!-- #!(TAB鍵) 基本架構 -->
+
+<!-- 告訴網頁使用的語法是html5 -->
+<!DOCTYPE html>
+
+<!-- <tag>放文字或是 html element</tag>> -->
+<!-- #lang是語言，en=英文，zh-TW=繁體漢字，zh-CN=簡體漢字，zh-HK香港漢字 -->
+<html lang="zh-TW">
+
+<!-- head裡面的內容是要告訴瀏覽器的，不會顯示在網頁 -->
+
+<head>
+    <!-- UTF:萬國碼，可以打上各種語言 -->
+    <meta charset="UTF-8">
+
+    <!-- device-width寬度以當下這台機器為主 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- 相容性問題 預設用IE-EDGE網頁瀏覽器 -->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- 標籤頁名稱 -->
+    <title>網頁使用者介面</title>
+
+    <!-- 引用css檔案要放在head裡 -->
+    <link rel="stylesheet" href="./css/index.css">
+
+
+</head>
+
+<body>
+    <!-- h${標題$}*6 -->
+    <!-- 要變換的數字寫作$，內容放在大括弧中 -->
+    <h1>標題1</h1>
+    <h2>標題2</h2>
+    <h3>標題3</h3>
+    <h4>標題4</h4>
+    <h5>標題5</h5>
+    <h6>標題6</h6>
+
+    <!-- h{標題}+p{段落} -->
+    <h>標題</h>
+    <p>段落</p>
+
+    <!-- href是屬性_超連結 
+        <a href="連結網址"> 點擊連結的文字或是圖片</a>> -->
+    <!-- a[href=網址]{網站名稱} -->
+    <!-- 超連結自動分頁，[href=網址 target=_blank] -->
+    <a href="https://my.ntu.edu.tw/">ntu</a>
+    <br>
+    <a href="https://www.w3schools.com/html/">Visit our HTML tutorial</a>
+
+    <!-- 換行 -->
+    <br>
+
+    <!-- img圖片 -->
+    <!-- 網頁中圖片大小都是用像素px為單位 -->
+    <!-- <img src="圖片來源網址或圖檔" alt="圖片內容"> -->
+    <img src="" alt="" width="" height="">
+
+    <!-- 圖片來源有絕對路徑、相對路徑，絕對路徑就是網址；相對路徑就是檔案位置 -->
+    <img src="./img/漁翁島燈塔.jpg" alt="">
+    <img src="https://www.google.com.tw/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="goolge">
+    <br>
+
+    <!-- ./ 同層目錄 ../上一層目錄 / 根目錄 -->
+    <img src="./img/漁翁島燈塔.jpg" alt="">
+
+
+
+    <img src="./img/漁翁島燈塔.jpg" alt="">
+    <img src="../1.jpg" alt="">
+    <img src="../2.jpg" alt="">
+    <img src="../3.jpg" alt="">
+    <!-- 圖片有超連結_用父子關係_a超連結>img圖片 -->
+    <br>
+    <a href="https://www.youtube.com/watch?v=s2I0oz7mG7E" target=_blank>
+        <img src="https://www.google.com.tw/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt=""></a>
+
+
+
+</body>
+
+</html>

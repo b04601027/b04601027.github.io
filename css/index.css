@@ -1,0 +1,9 @@
+/* 邊框至少要有color, width, style */
+
+img {
+    width: 300px;
+    border-color: #000000;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 15px;
+}
