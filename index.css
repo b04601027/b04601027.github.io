@@ -1,0 +1,25 @@
+.tr1 {
+    letter-spacing: 3px;
+    text-align: center;
+    font-family: cursive;
+    font-size: larger;
+    color: darkslategrey;
+    background-color: aliceblue;
+}
+
+.tr {
+    font-family: cursive;
+    letter-spacing: 1px;
+    text-align: center;
+    border-style: groove;
+    ;
+}
+
+.trb {
+    font-family: cursive;
+    letter-spacing: 1px;
+    text-align: center;
+    background-color: honeydew;
+    border-style: groove;
+    border-bottom: darkblue;
+}
