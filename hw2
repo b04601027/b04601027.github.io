@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+
+</head>
+
+<body>
+
+    <h1>b04601027 107-1 課表</h1>
+
+    <!-- table>(tr>th*6)+(tr>td{$}+td*5)*10 -->
+    <table>
+        <tr class="tr1">
+            <th>時間</th>
+            <th>星期一</th>
+            <th>星期二</th>
+            <th>星期三</th>
+            <th>星期四</th>
+            <th>星期五</th>
+        </tr>
+        <tr class="tr">
+            <td>1</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr class="trb">
+            <td>2</td>
+            <td> <a href="https://nol.ntu.edu.tw/nol/coursesearch/print_table.php?course_id=621%20U1930&class=&dpt_code=6010&ser_no=30329&semester=107-1&lang=CH">
+                    高等統計</a></td>
+
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr class="tr">
+            <td>3</td>
+            <td> <a href="https://nol.ntu.edu.tw/nol/coursesearch/print_table.php?course_id=621%20U1930&class=&dpt_code=6010&ser_no=30329&semester=107-1&lang=CH">
+                高等統計</a></td>
+            <td></td>
+            <td><a href="https://nol.ntu.edu.tw/nol/coursesearch/print_table.php?course_id=601%2049101&class=&dpt_code=6010&ser_no=78978&semester=107-1&lang=CH">
+                專題討論</a>
+            </td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr class="trb">
+            <td>4</td>
+            <td> <a href="https://nol.ntu.edu.tw/nol/coursesearch/print_table.php?course_id=621%20U1930&class=&dpt_code=6010&ser_no=30329&semester=107-1&lang=CH">
+                高等統計</a></td>
+            <td></td>
+            <td></td>
+            <td><a href="https://nol.ntu.edu.tw/nol/coursesearch/print_table.php?course_id=601%2049101&class=&dpt_code=6010&ser_no=78978&semester=107-1&lang=CH">
+                專題討論</a>
+            </td>
+            <td></td>
+        </tr>
+        <tr class="tr">
+            <td>5</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr class="trb">
+            <td>6</td>
+            <td><a href="https://nol.ntu.edu.tw/nol/coursesearch/print_table.php?course_id=H01%2004200&class=&dpt_code=0000&ser_no=78134&semester=107-1&lang=CH">
+                職場倫理</a>>
+            </td>
+            <td> <a href="https://nol.ntu.edu.tw/nol/coursesearch/print_table.php?course_id=621%20U5570&class=&dpt_code=6010&ser_no=11506&semester=107-1&lang=CH">
+                類別資料 </a></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr class="tr">
+            <td>7</td>
+            <td><a href="https://nol.ntu.edu.tw/nol/coursesearch/print_table.php?course_id=H01%2004200&class=&dpt_code=0000&ser_no=78134&semester=107-1&lang=CH">
+                職場倫理</a>>
+                <td> <a href="https://nol.ntu.edu.tw/nol/coursesearch/print_table.php?course_id=621%20U5570&class=&dpt_code=6010&ser_no=11506&semester=107-1&lang=CH">
+                類別資料 </a></td>
+                <td></td>
+                <td></td>
+                <td></td>
+        </tr>
+        <tr class="trb">
+            <td>8</td>
+            <td><a href="https://nol.ntu.edu.tw/nol/coursesearch/print_table.php?course_id=H01%2004200&class=&dpt_code=0000&ser_no=78134&semester=107-1&lang=CH">
+                職場倫理</a>>
+                <td> <a href="https://nol.ntu.edu.tw/nol/coursesearch/print_table.php?course_id=621%20U5570&class=&dpt_code=6010&ser_no=11506&semester=107-1&lang=CH">
+                類別資料 </a></td>
+                <td></td>
+                <td></td>
+                <td></td>
+        </tr>
+        <tr class="tr">
+            <td>9</td>
+            <td></td>
+     .tr1 {
+    letter-spacing: 3px;
+    text-align: center;
+    font-family: cursive;
+    font-size: larger;
+    color: darkslategrey;
+    background-color: aliceblue;
+}
+
+.tr {
+    font-family: cursive;
+    letter-spacing: 1px;
+    text-align: center;
+    border-style: groove;
+    ;
+}
+
+.trb {
+    font-family: cursive;
+    letter-spacing: 1px;
+    text-align: center;
+    background-color: honeydew;
+    border-style: groove;
+    border-bottom: darkblue;
+}       <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr class="trb">
+            <td>10</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+
+</body>
+
+</html>
